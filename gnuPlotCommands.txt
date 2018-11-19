@@ -1,0 +1,6 @@
+set term png
+set output "aminoAcids.png"
+set xrange [-25:25]
+set yrange [-25:25]
+set zrange [-25:25]
+splot 'aminoAcids1.txt', 'aminoAcids2.txt', 'aminoAcids3.txt' with circles
